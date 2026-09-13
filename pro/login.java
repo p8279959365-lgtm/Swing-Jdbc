@@ -17,12 +17,17 @@ class login
         obj.setSize(600,600);
         obj.setLayout(null);
 
+        JLabel l=new JLabel("MANIPAL UNIVERSITY JAIPUR");
+        l.setBounds(240,100,180,100);
+        obj.add(l);
         JLabel l1=new JLabel("Registratio number ");
         l1.setBounds(130, 180, 120, 30);
         obj.add(l1);
+
         JTextField t1=new JTextField();
         t1.setBounds(260, 180, 180, 30);
         obj.add(t1);
+
 
         JLabel l2=new JLabel("Name ");
         l2.setBounds(130, 230, 120, 30);
